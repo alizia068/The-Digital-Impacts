@@ -1,0 +1,74 @@
+/* body{
+  height: 700px;
+  width: fit-content;
+} */
+.Navbar--style {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  justify-content: space-between;
+  height: 100px;
+  padding: 20px 0 20px 0;
+}
+.Navbar--list {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+}
+.logo-iamge {
+  align-self: center;
+}
+.contact-button {
+  align-self: center;
+}
+button {
+  background-color: #04376d;
+  color: white;
+  width: 140px;
+  height: 28px;
+  border: none;
+  letter-spacing: 2px;
+  opacity: 1;
+  transition: 1s;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.home-list {
+  color: #04376d;
+  letter-spacing: 2px;
+}
+.about-us--list {
+  color: #04376d;
+  letter-spacing: 2px;
+}
+.content-list {
+  color: #04376d;
+  letter-spacing: 2px;
+}
+li > a {
+  text-decoration: none;
+  opacity: 1;
+  transition: 1s;
+}
+li {
+  text-decoration: none;
+  opacity: 1;
+  transition: 1s;
+}
+li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: gray;
+}
+.logo-iamge > img {
+  height: 200px;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-div {
+  align-self: center;
+}
