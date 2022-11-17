@@ -5,21 +5,27 @@ const NavBar = () => {
     <>
       <div className="Navbar--style">
         <span className="logo-iamge">
-          <img src="./Logoimage/XCOM Logo.png" />
+          <img src="./Logoimage/digital-impacts.jpg" />
         </span>
         <div className="ul-div">
           <ul className="Navbar--list">
             <li className="home-list">
               <a href="#">Home</a>
             </li>
+            <li className="content-list">
+              <a href="#">Services</a>
+            </li>
             <li className="about-us--list">
               <a href="#">About Us</a>
             </li>
             <li className="content-list">
-              <a href="#">Content</a>
+              <a href="#">Portfolio</a>
             </li>
             <li className="content-list">
-              <a href="#">Services</a>
+              <a href="#">Videos</a>
+            </li>
+            <li className="content-list">
+              <a href="#">Content</a>
             </li>
           </ul>
         </div>

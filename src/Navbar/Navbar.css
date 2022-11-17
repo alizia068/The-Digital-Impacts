@@ -7,13 +7,16 @@
   flex-direction: row;
   flex-basis: auto;
   justify-content: space-between;
-  height: 100px;
+  height: 60px;
   padding: 20px 0 20px 0;
+  background-color: #f7f7f7;
+  box-shadow: 2px 2px 8px #0796d6;
 }
 .Navbar--list {
   display: flex;
-  gap: 60px;
+  gap: 40px;
   list-style: none;
+  padding-left: 0;
 }
 .logo-iamge {
   align-self: center;
@@ -22,7 +25,7 @@
   align-self: center;
 }
 button {
-  background-color: #04376d;
+  background-color: #0796d6;
   color: white;
   width: 140px;
   height: 28px;
@@ -35,38 +38,43 @@ button:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
-.home-list {
-  color: #04376d;
+/* .home-list {
+  color: #0796d6;
   letter-spacing: 2px;
 }
 .about-us--list {
-  color: #04376d;
+  color: #0796d6;
   letter-spacing: 2px;
 }
 .content-list {
-  color: #04376d;
+  color: #0796d6;
   letter-spacing: 2px;
-}
+} */
 li > a {
   text-decoration: none;
   opacity: 1;
   transition: 1s;
+  color: #0796d6;
 }
 li {
   text-decoration: none;
   opacity: 1;
   transition: 1s;
+  letter-spacing: 2px;
 }
+
 li:hover {
   cursor: pointer;
   transform: scale(1.2);
-  color: gray;
+  /* color: gray; */
+  color: #0796d6;
 }
 .logo-iamge > img {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   padding: 0;
   margin: 0;
+  
 }
 
 .ul-div {

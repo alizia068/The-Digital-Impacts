@@ -1,6 +1,7 @@
 .body-image > img {
   height: 500px;
   /* width: 500px; */
+  margin-top: 10px;
 }
 .body-content {
   display: flex;
@@ -10,25 +11,33 @@
   margin-left: 0;
 }
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 0;
-  color: #04376d;
+  color: black;
 }
 h2 {
   font-size: 30px;
-  margin-bottom: 12px;
-  color: #04376d;
+  margin: 20px 0;
+  color: #0796d6;
 }
 span {
-  color: #04376d;
+  color: black;
+}
+h1 > span {
+  color: #0796d6;
+}
+span > span {
+  color: #0796d6;
 }
 .second-div {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .read-more-button {
-  margin-top: 40px;
+  margin-top: 60px;
   float: right;
 }
 hr {
   border-top: 2px solid #04376d;
+  margin-bottom: 20px;
 }
+

@@ -1,35 +1,37 @@
 import React from "react";
 import "./BodyContent.css";
-const BodyContent = () => {
+const Home = () => {
   return (
     <>
       <div className="body-content">
         <div className="body-image--container">
           <span className="body-image">
-            <img src="./Logoimage/S-image.png" />
+            <img src="./Logoimage/Home-Image.jpg" />
           </span>
         </div>
         <div className="second-div">
           <h1>
-            DIGITAL
-            <br />
-            MARKETING
+            Build your website <br /> the best in the <span>SEO</span>
           </h1>
-          <h2>Lorem Ipsum</h2>
+          <h2>Welcome to the Digital Impacts</h2>
           <hr />
           <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
+            Web design services comprise the process of user interface{" "}
+            <span>(UI)</span>
             <br />
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            and user experience <span>(UX)</span> design of any web-based
+            solution. In
             <br />
-            Ut enim ad minim veniam, quis nostrud
+            each of its web design projects, The Digital Impacts balances the
+            <br />
+            technology, We create Fully Responsive Website for Your Busniness.
           </span>
           <div className="read-more-button">
-            <button>Read More</button>
+            <button className="message-us-button">Message Us Now</button>
           </div>
         </div>
       </div>
     </>
   );
 };
-export default BodyContent;
+export default Home;

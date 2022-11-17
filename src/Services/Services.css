@@ -1,0 +1,71 @@
+.heading {
+  padding-bottom: 40px;
+}
+.Services-heading {
+  color: black;
+  text-align: center;
+}
+.Services-heading > span {
+  color: #0796d6;
+}
+.Services--Cards {
+  display: flex;
+  text-align: center;
+  width: fit-content;
+  gap: 28px;
+}
+.Services--Card1 {
+  padding: 20px 40px 50px 40px;
+  box-sizing: border-box;
+  border-radius: 14px;
+  box-shadow: 2px 2px 8px #0796d6;
+  opacity: 1;
+  transition: 1s;
+}
+.Services--Card1 > h3 {
+  font-size: 24px;
+}
+.Services--Card1 > h6 {
+  font-size: 24px;
+}
+.Services--Card1 > h7 > span {
+  color: #0796d6;
+}
+.Services--Card1 > a {
+  text-decoration: none;
+}
+
+.Services--Card1:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.Plan--P-Tag{
+  line-height: 28pt;
+
+}
+.--starter-plan{
+margin-bottom: 16px;
+color: #0796d6;
+}
+.--starter-plan-heading{
+  margin-bottom: 16px;
+color: black;
+}
+button{
+  border-radius: 16px;
+  width: fit-content;
+  height: 30px;
+  width: fit-content;
+  box-sizing: border-box;
+  padding: 0 12px;
+}
+.ServicesCard--P-Tag{
+  line-height: 20pt;
+}
+.text-style{
+text-decoration: line-through;
+color: #0796d6;
+}
+.Plans--Button{
+  margin-top: 16px;
+}
