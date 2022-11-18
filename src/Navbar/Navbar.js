@@ -21,12 +21,7 @@ const NavBar = () => {
             <li className="content-list">
               <a href="#">Portfolio</a>
             </li>
-            <li className="content-list">
-              <a href="#">Videos</a>
-            </li>
-            <li className="content-list">
-              <a href="#">Content</a>
-            </li>
+            
           </ul>
         </div>
         <div className="contact-button">
