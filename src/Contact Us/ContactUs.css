@@ -5,9 +5,8 @@
   /* gap: 28px; */
   line-height: 32pt;
   gap: 20px;
-  
 }
-label{
+label {
   color: #0796d6;
 }
 .Form--Card {
@@ -18,7 +17,7 @@ label{
   opacity: 1;
   transition: 1s;
 }
-card>form>input{
+card > form > input {
   width: 360px;
   /* height: 50px; */
   /* border-bottom: solid; */
@@ -27,7 +26,7 @@ card>form>input{
   border-right: none;
   border-color: #0796d6;
 }
-.form-submit-button{
+.form-submit-button {
   border-radius: 16px;
   width: fit-content;
   height: 30px;
@@ -38,9 +37,12 @@ card>form>input{
   background-color: #0796d6;
   color: white;
 }
-.contact-numbers{
+.contact-numbers {
   display: flex;
 }
-h4{
+h4 {
   color: #0796d6;
+}
+.ContactUs---Email{
+  align-self: center;
 }

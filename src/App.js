@@ -4,6 +4,7 @@ import NavBar from "./Navbar/Navbar";
 import Home from "./MainContent/BodyContent";
 import Services from "./Services/Services";
 import ContactUs from "./Contact Us/ContactUs";
+import AboutUs from "./About Us/AboutUs";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Services/>
       <ContactUs/>
+      <AboutUs/>
       </div>
     </div>
   );

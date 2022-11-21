@@ -39,19 +39,18 @@
   cursor: pointer;
   transform: scale(1.1);
 }
-.Plan--P-Tag{
+.Plan--P-Tag {
   line-height: 28pt;
-
 }
-.--starter-plan{
-margin-bottom: 16px;
-color: #0796d6;
-}
-.--starter-plan-heading{
+.--starter-plan {
   margin-bottom: 16px;
-color: black;
+  color: #0796d6;
 }
-button{
+.--starter-plan-heading {
+  margin-bottom: 16px;
+  color: black;
+}
+button {
   border-radius: 16px;
   width: fit-content;
   height: 30px;
@@ -59,13 +58,13 @@ button{
   box-sizing: border-box;
   padding: 0 12px;
 }
-.ServicesCard--P-Tag{
+.ServicesCard--P-Tag {
   line-height: 20pt;
 }
-.text-style{
-text-decoration: line-through;
-color: #0796d6;
+.text-style {
+  text-decoration: line-through;
+  color: #0796d6;
 }
-.Plans--Button{
+.Plans--Button {
   margin-top: 16px;
 }

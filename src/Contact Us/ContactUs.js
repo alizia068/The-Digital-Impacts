@@ -6,7 +6,7 @@ import { IoMdMail } from "react-icons/io";
 const ContactUs = () => {
   function handleSubmit(e) {
     e.preventDefault();
-    alert('Submitted');
+    alert("Submitted");
   }
   return (
     <>
@@ -28,21 +28,27 @@ const ContactUs = () => {
             scrolling="no"
             marginheight="0"
             marginwidth="0"
-            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=31.4689747,74.3178269&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Oldham Graham, Manchester UK&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           ></iframe>
           <div className="contact-numbers">
-            <div><h2><FaPhoneSquareAlt/></h2></div>
             <div>
-          <h4>+447424997026</h4>
-          <h4>+923060333340</h4>
+              <h2>
+                <FaPhoneSquareAlt />
+              </h2>
+            </div>
+            <div>
+              <h4>+447424997026</h4>
+              <h4>+447900190002</h4>
+            </div>
+            <div>
+              <h2>
+                <IoMdMail />
+              </h2>
+            </div>
+            <div className="ContactUs---Email">
+              <h4>info@thedigitalimpacts.com</h4>
+            </div>
           </div>
-          <div><h2><IoMdMail/></h2></div>
-          <div>
-          <h4>info@thedigitalimpacts.com</h4>
-          <h4>ceo@thedigitalimpacts.com</h4>
-          </div>
-          </div>
-
         </div>
         <card className="Form--Card">
           <form onSubmit={handleSubmit}>
