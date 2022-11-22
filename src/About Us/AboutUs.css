@@ -3,8 +3,16 @@
   letter-spacing: 2px;
   font-weight: 400;
 }
+.AboutUs--FirstDiv {
+  margin-top: 40px;
+}
+
 .AboutUs--DigitalImpacts {
   text-align: center;
+  font-size: large;
+}
+.AboutUs--DigitalImpacts>p>b {
+  color: #2a363f;
 }
 .AboutUs--FirstDiv > h2 {
   color: black;

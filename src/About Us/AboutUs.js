@@ -3,26 +3,26 @@ import "./AboutUs.css";
 const AboutUs = () => {
   return (
     <>
+      <div className="AboutUs--FirstDiv">
+        <h2>EVERYTHING YOU NEED TO KNOW ABOUT</h2>
+      </div>
       <div className="AboutUs-Container">
-        <div className="AboutUs--FirstDiv">
-          <h2>EVERYTHING YOU NEED TO KNOW ABOUT</h2>
-        </div>
         <div className="AboutUs--DigitalImpacts">
-          <h2>The Digital Impacts</h2>
+          <h2>THE DIGITAL IMPACTS</h2>
         </div>
         <div className="AboutUs--DigitalImpacts">
           <p>
-            The digital impacts create a perfect company for its customers. The
-            digital impacts offers the best services to ensure your business
+            The <b>Digital Impacts</b> create a perfect company for its customers. 
+            <b>Digital Impacts</b> offers the best services to ensure your business
             thrives online. Because we partner with our clients with a team of
-            professionals, we are able to offer the best on our side. We strive
-            to be leaders in digital marketing services across the world by
+            professionals, we are able to provide the best on our side. We
+            strive to be leaders in digital marketing services worldwide by
             revolutionizing the industry and setting new standards of
             professionalism and success.
           </p>
         </div>
         <div className="AboutUs--DigitalImpacts">
-          <h2>Our Vision</h2>
+          <h2>OUR VISION</h2>
         </div>
         <div className="AboutUs--DigitalImpacts">
           <p>
@@ -34,7 +34,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="AboutUs--DigitalImpacts">
-          <h2>Our Mission</h2>
+          <h2>OUR MISSION</h2>
         </div>
         <div className="AboutUs--DigitalImpacts">
           <p>

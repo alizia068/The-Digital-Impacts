@@ -11,20 +11,16 @@ const Home = () => {
         </div>
         <div className="second-div">
           <h1>
-            Build your website <br /> the best in the <span>SEO</span>
+            We are full Services<br /> <span>Digital Marketing Agency</span>
           </h1>
           <h2>Welcome to the Digital Impacts</h2>
-          <hr />
+          <hr/>
           <span>
-            Web design services comprise the process of user interface{" "}
-            <span>(UI)</span>
-            <br />
-            and user experience <span>(UX)</span> design of any web-based
-            solution. In
-            <br />
-            each of its web design projects, The Digital Impacts balances the
-            <br />
-            technology, We create Fully Responsive Website for Your Busniness.
+            We partner with our clients with a team of
+            professionals, we are able to provide <br/> the best on our side. We
+            strive to be leaders in digital marketing services worldwide <br/> by
+            revolutionizing the industry and setting new standards of
+            professionalism and success.
           </span>
           <div className="read-more-button">
             <button className="message-us-button">Message Us Now</button>
