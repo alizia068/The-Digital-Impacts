@@ -11,6 +11,7 @@
   padding: 20px 0 20px 0;
   background-color: #f7f7f7;
   box-shadow: 2px 2px 8px #0796d6;
+  border-bottom: 16px solid #0796d6;
 }
 .Navbar--list {
   display: flex;
@@ -62,14 +63,13 @@ li {
   transition: 1s;
   letter-spacing: 2px;
 }
-
 li:hover {
   cursor: pointer;
   transform: scale(1.2);
   /* color: gray; */
   color: #0796d6;
 }
-.logo-iamge > img {
+.logo-iamge > a > img {
   height: 100px;
   width: 100px;
   padding: 0;

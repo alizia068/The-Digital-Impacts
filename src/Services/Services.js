@@ -3,6 +3,8 @@ import "./Services.css";
 import { GiOpeningShell } from "react-icons/gi";
 import { AiOutlineRocket } from "react-icons/ai";
 import { GiBulletImpacts } from "react-icons/gi";
+import { TfiWrite } from "react-icons/tfi";
+import { CgFilm } from "react-icons/cg";
 const Services = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Services = () => {
         </h2>
       </div>
       <div className="Services--Cards">
-        {/* First card */}
+        {/* Digital Marketing */}
         <card className="Services--Card1">
           <h3>Digital Marketing</h3>
           <h2>
@@ -28,8 +30,7 @@ const Services = () => {
             digital marketing companies in the world.
           </p>
         </card>
-
-        {/* Second card */}
+        {/* Web Development */}
         <card className="Services--Card1">
           <h3>Web Development</h3>
           <h2>
@@ -41,22 +42,48 @@ const Services = () => {
             any web-based solution.
           </p>
         </card>
-        {/* 3rd card */}
+
+        {/* Graphic Designing */}
+        <card className="Services--Card1">
+          <h3>Graphic Designing</h3>
+          <h2>
+            <CgFilm />
+          </h2>
+          <p className="ServicesCard--P-Tag">
+            Create visual concepts to communicate ideas that inspire and
+            captivate consumers.creative thinking, an aptitude
+            towards art and design
+          </p>
+        </card>
+      </div>
+      <div className="Services--Cards">
+        {/* Content Writter */}
+        <card className="Services--Card1">
+          <h3>Content Writter</h3>
+          <h2>
+            <TfiWrite />
+          </h2>
+          <p className="ServicesCard--P-Tag">
+            That <span>content</span> can include blog posts, video or podcast
+            scripts, ebooks or whitepapers, press releases, product category
+            descriptions, landing page or social media
+          </p>
+        </card>
+        {/* SEO */}
         <card className="Services--Card1">
           <h3>SEO</h3>
           <h2>
             <GiOpeningShell />
           </h2>
           <p className="ServicesCard--P-Tag">
-            Search engine optimization is the process of improving the quality
-            and quantity of website traffic to a website or a web page from
-            search engines. SEO targets unpaid traffic rather than direct
-            traffic or paid traffic.
+            Help search engines find, crawl, and index your content efficiently.
+            Website can become easily findable, more relevant and popular
+            towards user search querie.
           </p>
         </card>
       </div>
 
-      {/* Plans */}
+      {/* Industries */}
 
       <div className="heading">
         <h1 className="Services-heading">

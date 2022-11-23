@@ -34,9 +34,19 @@
   margin-left: 16px;
   align-self: center;
 }
-.Portfolio1--image > img {
+.Portfolio1--image > a > img {
   width: 500px;
   height: 500px;
+}
+.Portfolio1--image > a > img {
+  width: 500px;
+  height: 500px;
+}
+.Portfolio1--image > a > img:hover {
+  cursor: pointer;
+  opacity: 0.3;
+  transition: 0.4s ease;
+  /* backface-visibility: hidden; */
 }
 .webdevelopment--aws-icon {
   display: flex;
@@ -46,4 +56,10 @@
   display: flex;
   justify-content: space-between !important;
   color: #0796d6;
+}
+.link {
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }

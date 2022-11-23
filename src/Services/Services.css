@@ -16,6 +16,9 @@
   gap: 28px;
   margin-bottom: 40px;
 }
+.ServicesCard--P-Tag>span{
+  color: #0796d6;
+}
 .Services--industries {
   display: flex;
   text-align: center;
@@ -37,6 +40,9 @@
   opacity: 1;
   transition: 1s;
   width: 300px;
+  border-bottom: 16px solid #0796d6;
+  border-top: 8px solid #0796d6;
+
 }
 .Services--Card1 > h3 {
   font-size: 24px;

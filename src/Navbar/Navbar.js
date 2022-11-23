@@ -5,12 +5,14 @@ const NavBar = () => {
     <>
       <div className="Navbar--style">
         <span className="logo-iamge">
-          <img src="./Logoimage/digital-impacts.jpg" />
+          <a href="home">
+            <img src="./Logoimage/digital-impacts.jpg" />
+          </a>
         </span>
         <div className="ul-div">
           <ul className="Navbar--list">
             <li className="home-list">
-              <a href="#">Home</a>
+              <a href="home">Home</a>
             </li>
             <li className="content-list">
               <a href="#">Services</a>

@@ -12,11 +12,12 @@ const AboutUs = () => {
         </div>
         <div className="AboutUs--DigitalImpacts">
           <p>
-            The <b>Digital Impacts</b> create a perfect company for its customers. 
-            <b>Digital Impacts</b> offers the best services to ensure your business
-            thrives online. Because we partner with our clients with a team of
-            professionals, we are able to provide the best on our side. We
-            strive to be leaders in digital marketing services worldwide by
+            The <b>Digital Impacts</b> create a perfect company for its
+            customers.
+            <b>Digital Impacts</b> offers the best services to ensure your
+            business thrives online. Because we partner with our clients with a
+            team of professionals, we are able to provide the best on our side.
+            We strive to be leaders in digital marketing services worldwide by
             revolutionizing the industry and setting new standards of
             professionalism and success.
           </p>

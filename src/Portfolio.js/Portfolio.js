@@ -46,17 +46,19 @@ const Portfolio = () => {
               </h1>
             </div>
           </div>
-          <div>
-            <span className="Portfolio1--image">
+          <div className="Portfolio1--image">
+            <a href="https://revivesalon.pk/" target="_blank">
               <img src="./Logoimage/Revive.jpg" />
-            </span>
+            </a>
           </div>
         </div>
         {/* 2nd Portfolio */}
         <div className="Portfolio1--container">
           <div>
             <span className="Portfolio1--image">
-              <img src="./Logoimage/Voeux.jpg" />
+              <a href="https://voeuxcosmetics.com/" target="_blank">
+                <img src="./Logoimage/Voeux.jpg" />
+              </a>
             </span>
           </div>
           <div className="Portfolio1">
@@ -114,7 +116,9 @@ const Portfolio = () => {
           </div>
           <div>
             <span className="Portfolio1--image">
-              <img src="./Logoimage/The Kingz.jpg" />
+              <a href="https://www.kingz.com/" target="_blank">
+                <img src="./Logoimage/The Kingz.jpg" />
+              </a>
             </span>
           </div>
         </div>
@@ -122,7 +126,9 @@ const Portfolio = () => {
         <div className="Portfolio1--container">
           <div>
             <span className="Portfolio1--image">
-              <img src="./Logoimage/Unifresh.jpg" />
+              <a href="https://unifresh.com.au/" target="_blank">
+                <img src="./Logoimage/Unifresh.jpg" />
+              </a>
             </span>
           </div>
           <div className="Portfolio1">
