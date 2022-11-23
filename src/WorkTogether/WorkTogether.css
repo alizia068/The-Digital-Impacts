@@ -1,0 +1,26 @@
+.WT---Flex-center {
+  width: fit-content;
+  justify-content: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+}
+.WT---blackbar {
+  width: 132px;
+  height: 16px;
+  background-color: #0796d6;
+  margin-top: 40%;
+  margin-bottom: 10px;
+}
+.WT---Flex-center > div > h1 {
+  color: #0796d6;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.WT---Flex-center > div > p {
+  margin-bottom: 40px;
+  color: #2a363f;
+}
+.WT---Flex-center > div > button {
+  margin-bottom: 40px;
+}

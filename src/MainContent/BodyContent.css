@@ -35,8 +35,10 @@ span > span {
 .read-more-button {
   margin-top: 60px;
   float: right;
+  
 }
-hr {
-  border-top: 1px solid #0796d6;
+.line {
+  height: 2px;
+  background-color: #0796d6;
   margin-bottom: 20px;
 }

@@ -15,7 +15,7 @@ const Home = () => {
             <br /> <span>Digital Marketing Agency</span>
           </h1>
           <h2>Welcome to the Digital Impacts</h2>
-          <hr />
+          <div className="line"></div>
           <span>
             We partner with our clients with a team of professionals, we are
             able to provide <br /> the best on our side. We strive to be leaders

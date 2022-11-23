@@ -6,6 +6,7 @@ import Services from "./Services/Services";
 import ContactUs from "./Contact Us/ContactUs";
 import AboutUs from "./About Us/AboutUs";
 import Portfolio from "./Portfolio.js/Portfolio";
+import WorkTogether from "./WorkTogether/WorkTogether";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <ContactUs />
         <AboutUs />
         <Portfolio />
+        <WorkTogether/>
       </div>
     </div>
   );
