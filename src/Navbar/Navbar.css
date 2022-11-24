@@ -12,6 +12,8 @@
   background-color: #f7f7f7;
   box-shadow: 2px 2px 8px #0796d6;
   border-bottom: 16px solid #0796d6;
+  position: sticky;
+  top: 0;
 }
 .Navbar--list {
   display: flex;
@@ -51,7 +53,7 @@ button:hover {
   color: #0796d6;
   letter-spacing: 2px;
 } */
-li > a {
+.Navbar--list>li > a {
   text-decoration: none;
   opacity: 1;
   transition: 1s;
@@ -63,7 +65,7 @@ li {
   transition: 1s;
   letter-spacing: 2px;
 }
-li:hover {
+.Navbar--list>li:hover {
   cursor: pointer;
   transform: scale(1.2);
   /* color: gray; */

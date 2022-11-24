@@ -18,6 +18,7 @@ label {
   transition: 1s;
   border-bottom: 16px solid #0796d6;
   border-top: 8px solid #0796d6;
+  
 }
 card > form > input {
   width: 360px;
@@ -42,9 +43,9 @@ card > form > input {
 .contact-numbers {
   display: flex;
 }
-h4 {
+/* .contact-numbers>h4 {
   color: #0796d6;
-}
+} */
 .ContactUs---Email {
   align-self: center;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import { CgWebsite } from "react-icons/cg";
 import { BsWordpress } from "react-icons/bs";
+import { GrReactjs } from "react-icons/gr";
 import { FaAws } from "react-icons/fa";
 const Portfolio = () => {
   return (
@@ -39,7 +40,7 @@ const Portfolio = () => {
             </div>
             <div className="webdevelopment--aws-icon">
               <h1>
-                <BsWordpress />
+                <GrReactjs />
               </h1>
               <h1>
                 <FaAws />
@@ -149,7 +150,7 @@ const Portfolio = () => {
             </div>
             <div className="webdevelopment--aws-icon">
               <h1>
-                <BsWordpress />
+                <GrReactjs />
               </h1>
               <h1>
                 <FaAws />

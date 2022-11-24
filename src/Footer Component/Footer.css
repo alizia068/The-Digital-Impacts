@@ -1,0 +1,96 @@
+.Footer-Container{
+  background-color: #0796d6;
+  color: #2a363f !important;
+  box-sizing: border-box;
+  padding: 40px;
+}
+.Footer--aside--Flex{
+  display: flex;
+}
+.Footer--aside--Flex>aside> h3{
+  margin-bottom: 20px;
+  color: #2a363f;
+}
+.Footer-list{
+  padding: 0;
+}
+.Footer-list>li>a{
+  color: whitesmoke;
+  text-decoration: none;
+  line-height: 40pt;
+}
+.Footer-list>li{
+  list-style: none;
+}
+.Footer-list>li>a:hover{
+  color:#2a363f;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.Footer-Resources--list>li>a:hover{
+  color:#2a363f;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.Footer-Resources--list{
+  padding: 0;
+}
+.Footer-Resources--list>li>a{
+  color: whitesmoke;
+  text-decoration: none;
+  line-height: 24pt;
+}
+.Footer-Resources--list>li{
+  list-style: none;
+}
+.Footer--contactUs-button>h4{
+  
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 16px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.Footer---Socialsites--Container{
+  display: flex;
+  gap: 10px;
+}
+.Footer---Socialsites>svg{
+  height: 50px;
+  width: 50px;
+  color: whitesmoke;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.Footer--FlagImage>img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.Footer--FlagImage{
+  text-align: center;
+  color: whitesmoke;
+}
+.flags-Addresses{
+  display: flex;
+  
+}
+.flags-Addresses>aside{
+ line-height: 20pt;
+}
+.Footer--Copyright{
+  
+  color: whitesmoke;
+  width: fit-content;
+   
+}
+.Footer--line{
+  height: 2px;
+  background-color: whitesmoke;
+  margin-top:  30px;
+  margin-bottom: 30px;
+}

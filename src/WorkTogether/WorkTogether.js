@@ -12,7 +12,7 @@ const WorkTogether = () => {
             <br />
             Get a free consultation to make this happen!
           </p>
-          <button>Contact Us</button>
+          <button>Connect</button>
         </div>
       </div>
     </>
