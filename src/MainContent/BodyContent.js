@@ -36,8 +36,8 @@ const Home = () => {
       <Services/>
       <AboutUs/>
       <Portfolio/>
-      <WorkTogether/>
-  <ContactUs/>    
+      <ContactUs/>
+      <WorkTogether/>    
     </>
   );
 };
