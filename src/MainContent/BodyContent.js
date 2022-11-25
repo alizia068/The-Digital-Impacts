@@ -1,4 +1,9 @@
 import React from "react";
+import AboutUs from "../About Us/AboutUs";
+import ContactUs from "../Contact Us/ContactUs";
+import Portfolio from "../Portfolio.js/Portfolio";
+import Services from "../Services/Services";
+import WorkTogether from "../WorkTogether/WorkTogether";
 import "./BodyContent.css";
 const Home = () => {
   return (
@@ -28,6 +33,11 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Services/>
+      <AboutUs/>
+      <Portfolio/>
+      <WorkTogether/>
+  <ContactUs/>    
     </>
   );
 };

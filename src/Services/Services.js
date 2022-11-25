@@ -51,8 +51,8 @@ const Services = () => {
           </h2>
           <p className="ServicesCard--P-Tag">
             Create visual concepts to communicate ideas that inspire and
-            captivate consumers.creative thinking, an aptitude
-            towards art and design
+            captivate consumers, creative thinking, an aptitude
+            towards art and design
           </p>
         </card>
       </div>
@@ -77,7 +77,7 @@ const Services = () => {
           </h2>
           <p className="ServicesCard--P-Tag">
             Help search engines find, crawl, and index your content efficiently.
-            Website can become easily findable, more relevant and popular
+            The website can become easily findable, more relevant and popular
             towards user search querie.
           </p>
         </card>

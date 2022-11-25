@@ -3,6 +3,7 @@
   color: #2a363f !important;
   box-sizing: border-box;
   padding: 40px;
+  margin-top: 80px;
 }
 .Footer--aside--Flex{
   display: flex;

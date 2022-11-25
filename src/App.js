@@ -9,27 +9,25 @@ import AboutUs from "./About Us/AboutUs";
 import Portfolio from "./Portfolio.js/Portfolio";
 import WorkTogether from "./WorkTogether/WorkTogether";
 import Footer from "./Footer Component/Footer";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
-    <div>
-      <NavBar />
-        <Home />
-        <Services />
-        <ContactUs />
-        <AboutUs />
-        <Portfolio />
-        <WorkTogether/>
-        <Footer/>
+      <div>
+        <NavBar />
+        
+        <Routes>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path="/Services" element={<Services />}></Route>
+          <Route exact path="/AboutUs" element={<AboutUs />}></Route>
+          <Route exact path="/Portfolio" element={<Portfolio />}></Route>
+          <Route exact path="/WorkTogether" element={<WorkTogether />}></Route>
+          
+        </Routes>
+        <Footer />
       </div>
     </Router>
   );
 }
 
-export default App;
+export default App; 
